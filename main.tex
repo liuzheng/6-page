@@ -1,0 +1,147 @@
+\documentclass{sixpage}
+\title{The Demo of an Amazon 6-pager}
+\subtitle{\href{https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9}{The Anatomy of an Amazon 6-pager}}  % 一句话总结目标用户是哪些人，他们可以获得什么价值
+\author{Jesse Freeman}
+\date{\today}
+%\imchinese % 中文文档请去除注释，进入中文风格
+\begin{document}
+    \maketitle
+%https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9
+
+
+    \section{Introduction}
+    This document aims to outline the current state of Pixel Vision 8's business and share our strategic priorities for 2020.
+    Our mission is to work with developers interested in creating retro-looking 8-bit games by connecting with them from the moment they get their first idea through completing a project.
+    PV8 lives in a subset of the game development tool space known as Fantasy Consoles(see appendix 7.1).
+    These Fantasy Consoles are small, self-contained, dedicated game development environments with build-in tools reminiscent of old 8-bit consoles or computers.
+    While we continue to execute via our website, itch.io, Twitter, and Discord (see appendix 7.2), we still need to amplify our message to reach other developers interested in using a Fantasy Console.
+
+    Early on, PV8 gained attention from developers as an alternative to existing Fantasy Consoles due to a few key distinguishers.
+    These include the ability to customize project limitations, a rich graphics UI(user interface), and the project is open source.
+    Most of the competing Fantasy Consoles use come form of command-line interface for working with the underlying file system and tools.
+    These Fantasy Consoles emulate early DOS and Commodore 64 style operating systems from the late 70s.
+    We purposely modeled PV8 around a more user-friendly operating system akin to the first Macintosh computers of the mid-80s to increase adoption among millennials.
+
+    Given the recent crowding of this space, we need to reduce the time it takes to get started, unblock technical hurdles, and offer a clear path to export stand-alone Windows, Mac, and Linux games from PV8 to distinguish ourselves from the competition.
+    By removing developer friction, we hope to increase organic adoption and, in turn, attract developers that produce higher quality games.
+    Our focus in 2020 will help establish PV8 as the number one Fantasy Console developers want to use, ensuring a healthy pipeline of completed games as we head into 2021.
+
+
+    \section{Goals}
+    In 2020, we plan to focus on and achieve the following goals:
+    \begin{itemize}
+        \item \textbf{Increase stability}: Reduce the total number of active Github issues from 100 on 12/31/2019 to 25 12/31/2020, a decrease of 75\% YoY.
+        \item \textbf{Increase active users}: Grow the active developer community from 7.4k on 12/31/2019 to 20k by 12/31/2020, an increase of 63\% YoY.
+        \item \textbf{Increase game release}: Create additional tutorials, documentation, and code examples that enable developers to create new games from 5 on 12/31/2019 to 20 by 12/31/2020, +75\% YoY.
+    \end{itemize}
+
+
+    \section{Tents}
+    The following tents are guiding principles we use to evaluate and prioritize Pixel Vision 8 activities:
+    \begin{itemize}
+        \item \textbf{Quality over quantity}: We will not rush out updates on a set schedule. Instead, we will work towards more significant releases that fix multiple bugs and improve the overall stability of the tooling.
+        \item \textbf{Keep scale in mind}: While we'd like to develop individual relationships with each user, we should focus on features and marketing programs that address the top of the funnel to increase developer adoption at scale.
+        \item \textbf{Reduce developer friction}: We want to focus on educating developers through in-depth technical content and tool documentation instead of relying solely on community knowledge transfer.
+        \item \textbf{Game first approach}: Developers should have a clear publishing path, and our tools need to assist in making this process as easy and intuitive as possible.
+        \item \textbf{Play with developers who play with us}: We will proiritize relationships with developers who are more willing to support PV8 and collaborate. To have long-term success, we believe mutual interests will be the most sustainable.
+        \item \textbf{Organic trumps paid}: Although some kind of paid promotions will be critial for building and accelerating adoption, we want to focus on driving organic demand through community building adn not on paid user acquisition.
+    \end{itemize}
+
+
+    \section{State of the Business}
+    Pixel Vision 8 has three primary verticals that contribute to the business: the framework, Pixel Vision OS, and technical content.
+    The framework represents the open-source C\# codebase that runs the Fantasy Console itself on Windows, Mac, and Linux.
+    This open-source project lives on GitHub and is licensed under the Microsoft Public License (see appendix 7.3).
+    Also, PV8 uses a custom-built operating system written in Lua and runs on top of the framework as a stand-alone application.
+    The OS includes all of the tools that developers use to make games as well as a way to manage project files and export finished games.
+    Finally, the technical content includes all of the documentation, tutorials, and code examples that not only help on board developers, but also generate the primary source of income to support the project.
+
+    In 2019, 66\% of our total income came from itch.io, with the remaining 34\% generated from the main website through direct sales.
+    These two revenue sources accounted for \$3.7k in gross revenue, thanks to the addition of 786 new paying customers (see appendix 7.4).
+    While this covered operational costs (see appendix 7.5), it stunted the ability to scale up development verses the time put into supporting and building new features (see appendix 7.6).
+    This data also points to a failure with the subscription business model since customers favored one time purchases instead of smaller monthly payments.
+    Over time, the lack of subscriptions will impact the recurring revenue potential in 2020.
+    In order to offset the lack of subscriptions, we will instead focus on ways to increase direct sales through complementary content such as tutorials and art packs to make the core product free to grow the user base.
+    Finally, we look to expand alternative income opportunities such as itch.io's "pay what you want" feature and Github sponsorships to make the base product free.
+
+
+    \section{2019 Lessons Learned}
+    2019 was a successful year for increasing paid and non-paying customers, product stability, and reducing dependence on direct one on one customer support.
+    As of December 31, 2019, we had a total of 7.4k customers.
+    Our unique feature set helped contribute to this growth.
+    Working with a well-known pixel artist, Christina Antoinette Neofotistou (@castpixel), also helped build additional awareness and credibility in the indie game developer community.
+
+    One challenge we faced last year was cultivating more developers to create games.
+    Although there has been a great deal of interest on Twitter, very few games have been created by the community in 2019.
+    As a result, developers are not widely using Pixel Vision 8, which continued to be a problem in activating the community last year.
+    To achieve the 2019 goal of adding 1k new users by EOY, we decided to focus more on features, and the type of content developers asked for, instead of directly pursuing customer acquisition.
+    Since there were substantial changes between releases in 2019, this required significant rewrites and editing, which proved to be time-consuming.
+
+
+    \section{Strategic Priorities}
+    In 2020, our priorities are to reduce developer friction, improve stability, and encourage high-quality games to be created with Pixel Vision 8.
+    To do this, we will work to enhance technical content, discoverability in the broader Fantasy Console community, and explore new marketing opportunities in a crowded space.
+    However, we still control our destiny, and as such, we will leverage our channels to improve awareness around building games with PV8.
+    Where we are unable to reduce friction or increase growth organically, we will work to achieve the following strategic priorities:
+
+    \subsection{Focus on increasing stability of the product by closing 50+ open issues, -75\% YoY.}
+    \underline{Finish Pixel Vision OS tools:} Currently, the Pixel Vision OS tools are in varying states of completion.
+    Each one needs to be audited, overhauled, and templatized, so consistency exists across the board.
+    That requires the standardization of a copy/paste and undo/redo system, easier to use UI components and a formal workflow for converting designs into actual working tools.
+    Not only is this critical for our developers to have the best tools possible, but it also sets us up for success.
+    As we head into 2021, we will begin to look into creating new tools to handle more advanced tasks like building meta-sprites and animations and sharing games online via the website's backend.
+
+
+    \newpage
+
+
+    \section{FAQ} % 1~2页，提出读者可能存在的疑问，并予以解答
+% 设想读者看完正文后可能存在的疑问
+% 列出读者可能提出的问题
+% 按重要性排序并编号
+% 准备好答案，确保答案准确且简洁
+% 理想情况下，所有关键问题均已在FAQ中得到解决，会议上可以集中讨论其他未解决的问题
+% 好的FAQ可帮助团队提前预知重要的问题，有助改善思维清晰度
+
+
+    \newpage
+
+
+    \section{附录} % 不超过10页,提供数据，以支撑正文论点
+% 附录非必要，6-page正文应能独立使用
+% 附录应包含支持正文论点所需的数据
+% 不应包含无法放进正文的内容
+
+\begin{lstlisting}[language=C,caption=casdcasdc code,style=diff]
+@@ librabbitmq/amqp_openssl.c:180 -85,8 +85,8 @@
+#include<stdio.h>
+static int amqp_ssl_socket_open(void *base, const char *host, int port, struct timeval *timeout) {
+	// (*@\dots@*)
++	cert = SSL_get_peer_certificate(self->ssl);
+	result = SSL_get_verify_result(self->ssl);
+-	if (X509_V_OK != result) {
++	if (!cert || X509_V_OK != result) {
+		goto error_out3;
+	}
+	// (*@\dots@*)
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=yaml,caption=yaml example]
+---
+key: value
+map:
+    key1: "foo:bar"
+    key2: value2
+list:
+  - element1
+  - element2
+# This is a comment
+listOfMaps:
+  - key1: value1a
+    key2: value1b
+  - key1: value2a
+    key2: value2b
+---
+\end{lstlisting}
+\end{document}
